@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CodePen - Chat (WebRTC)</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div ng-app="webchat">
+		<div ng-controller="ChatController">
+
+		</div>
+		<ul class="chat-thread">
+			<li>Are we meeting today?</li>
+			<li>yes, what time suits you?</li>
+			<li>I was thinking after lunch, I have a meeting in the morning</li>
+		</ul>
+	</div>
+	
+
+	<form class="chat-window">
+		<input class="chat-window-message" name="chat-window-message" type="text" autocomplete="off" autofocus />
+	</form>
+	<!-- partial -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js" integrity="sha512-KZmyTq3PLx9EZl0RHShHQuXtrvdJ+m35tuOiwlcZfs/rE7NZv29ygNA8SFCkMXTnYZQK2OX0Gm2qKGfvWEtRXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!--<script src="./script.js"></script>-->
+	<script src="./controller.js"></script>
+
+</body>
+</html>
